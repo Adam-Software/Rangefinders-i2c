@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='rangefinders-i2c',
-    version='0.0.1',
+    version='0.0.2',
     packages=['rangefinders_i2c'],
     url='https://github.com/Adam-Software/Rangefinders-i2c',
     license='MIT',

@@ -8,7 +8,7 @@ class SetAddressSensorTest(unittest.TestCase):
     def testCheckAddress(self):
         self.assertEqual(SensorManagment._checkAddress(5), False)
         self.assertEqual(SensorManagment._checkAddress(11), False)
-        self.assertEqual(SensorManagment._checkAddress(49), True)
+        self.assertEqual(SensorManagment._checkAddress(48), True)
         self.assertEqual(SensorManagment._checkAddress(50), True)
         self.assertEqual(SensorManagment._checkAddress(52), True)
         self.assertEqual(SensorManagment._checkAddress(54), True)
