@@ -34,7 +34,7 @@ class SensorManagment:
 
     @staticmethod
     def GetUsbDeviceList():
-        logger.info(sh.lsusb())
+        print(sh.lsusb())
 
     @staticmethod
     def _checkAddress(address: int) -> bool:
