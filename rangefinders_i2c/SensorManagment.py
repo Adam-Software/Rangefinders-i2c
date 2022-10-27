@@ -38,12 +38,13 @@ class SensorManagment:
 
         for cfg in dev:
             try:
-                # print dir(cfg)
-                sys.stdout.write(
-                    'Decimal VendorID=' + str(cfg.idVendor) + ' & ProductID=' + str(cfg.bDeviceClass) + '  ' + str(
-                        cfg.product) + ' ' + str(cfg.bDeviceSubClass) + '  ' + str(cfg.manufacturer) + '\n')
+                print(
+                    'Decimal VendorID=' + str(cfg.idVendor) +
+                    ' & ProductID=' + str(cfg.bDeviceClass) +
+                    '  ' + str(cfg.product) + ' ' + str(cfg.bDeviceSubClass) +
+                    '  ' + str(cfg.manufacturer) + '\n')
             except:
-                pass
+                print('Error read usb')
 
     @staticmethod
     def _checkAddress(address: int) -> bool:
