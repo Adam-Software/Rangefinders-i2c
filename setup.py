@@ -10,6 +10,7 @@ setup(
     url='https://github.com/Adam-Software/Rangefinders-i2c',
     license='MIT',
     author='vertigra',
+    author_email='a@nesterof.com',
     description='Change TOF10120 address device by usb. Get data from TOF10120 device by usb',
     long_description_content_type="text/markdown",
     long_description=long_description,

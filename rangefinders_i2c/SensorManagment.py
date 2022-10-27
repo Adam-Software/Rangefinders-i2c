@@ -14,14 +14,14 @@ class SensorManagment:
         logger.add('rangefinders.log', retention="10 days", level="INFO")
 
     # command for change address s7-xxx# - where 'xxx' is your address,
-    # not more than 254 (my address is 49,50,52,54,56,58)
+    # not more than 254 (my address is 48,50,52,54,56,58)
     # ser.write(b'r7#') #command for check address
     def setAddress(self, address: int):
         if self._checkAddress(address):
             try:
                 raise ValueError
             except ValueError:
-                logger.error('Address must be 49, 50, 52, 54, 56, 58')
+                logger.error('Address must be 48, 50, 52, 54, 56, 58')
 
         self._ser.write(f"'b's7-{address}#'")
 
@@ -37,7 +37,7 @@ class SensorManagment:
 
     @staticmethod
     def _checkAddress(address: int) -> bool:
-        if address not in [49, 50, 52, 54, 56, 58]:
+        if address not in [48, 50, 52, 54, 56, 58]:
             return False
 
         return True
