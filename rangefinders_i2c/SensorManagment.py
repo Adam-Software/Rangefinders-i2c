@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import usb.core
-import sys
+import sh
 from pickle import TRUE
 
 import serial
@@ -33,18 +32,7 @@ class SensorManagment:
         logger.info('Sensor write address finish. Serial close')
 
     def GetUsbDeviceList(self):
-        dev = usb.core.find(find_all=True)
-        # loop through devices, printing vendor and product ids in decimal and hex
-
-        for cfg in dev:
-            try:
-                print(
-                    'Decimal VendorID=' + str(cfg.idVendor) +
-                    ' & ProductID=' + str(cfg.bDeviceClass) +
-                    '  ' + str(cfg.product) + ' ' + str(cfg.bDeviceSubClass) +
-                    '  ' + str(cfg.manufacturer) + '\n')
-            except:
-                print('Error read usb')
+        print(sh.lsusb)
 
     @staticmethod
     def _checkAddress(address: int) -> bool:
