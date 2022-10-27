@@ -5,8 +5,8 @@ class SetAddressSensorHardwareTest:
 
     @staticmethod
     def GetUsbDevices():
-        sensor = SensorManagment()
-        sensor.GetUsbDeviceList()
+        SensorManagment.GetUsbDeviceList()
+
 
 
 if __name__ == '__main__':
