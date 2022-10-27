@@ -33,7 +33,7 @@ class SensorManagment:
         logger.info('Sensor write address finish. Serial close')
 
     @staticmethod
-    def GetUsbDeviceList() -> string:
+    def GetUsbDeviceList():
         logger.info(sh.lsusb())
 
     @staticmethod
