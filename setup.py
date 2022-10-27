@@ -21,5 +21,4 @@ setup(
         'Operating System :: POSIX :: Other',
         'Programming Language :: Python :: 3'
     ]
-
 )
