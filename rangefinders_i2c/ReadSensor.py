@@ -12,7 +12,8 @@ class ReadSensor:
                  i2sAddress: int,
                  loggerVerbose=False):
 
-        if loggerVerbose is True:
+        if loggerVerbose is False:
+            #remove log to stdout
             logger.remove()
 
         logger.add('rangefinders.log', retention="10 days", level="ERROR")

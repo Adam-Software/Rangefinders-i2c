@@ -31,6 +31,7 @@ class ExampleReadSensor:
 
         except KeyboardInterrupt:
             sensor.CloseSMBus()
+
         print("Stopped")
 
 

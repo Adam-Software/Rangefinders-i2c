@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sh
-from pickle import TRUE
 
+import sh
 import serial
+
+from pickle import TRUE
 from loguru import logger
 
 
@@ -31,8 +32,8 @@ class SensorManagment:
         self._ser.close()
         logger.info('Sensor write address finish. Serial close')
 
-    def GetUsbDeviceList(self):
-        print(sh.lsusb())
+    def GetUsbDeviceList(self) -> string:
+        logger.info(sh.lsusb())
 
     @staticmethod
     def _checkAddress(address: int) -> bool:

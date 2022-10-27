@@ -2,3 +2,4 @@ setuptools~=58.1.0
 smbus2~=0.4.2
 serial~=0.0.97
 loguru~=0.6.0
+sh~=1.14.3

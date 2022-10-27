@@ -13,7 +13,7 @@ setup(
     description='Change TOF10120 address device by usb. Get data from TOF10120 device by usb',
     long_description_content_type="text/markdown",
     long_description=long_description,
-    install_requires=['smbus2', 'serial'],
+    install_requires=['smbus2', 'serial', 'sh'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
