@@ -1,5 +1,8 @@
 # Rangefinders-i2c [![Platforms](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white) [![Language](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) [![IDE](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) [![adam package](https://img.shields.io/badge/adam_package-red?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Adam-Software)
 
+[![License](https://img.shields.io/github/license/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/license/Adam-Software/Rangefinders-i2c)
+[![PyPI version](https://badge.fury.io/py/rangefinders-i2c.svg)](https://badge.fury.io/py/rangefinders-i2c)
+
 ### What the library can do?
 1. Change TOF10120 address device by usb. 
 2. Get data from TOF10120 device by i2c
