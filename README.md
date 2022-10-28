@@ -1,17 +1,18 @@
 # Rangefinders-i2c [![Platforms](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white) [![Language](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) [![IDE](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) [![adam package](https://img.shields.io/badge/adam_package-red?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Adam-Software)
 
 [![License](https://img.shields.io/github/license/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/license/Adam-Software/Rangefinders-i2c)
-[![PyPI version](https://badge.fury.io/py/rangefinders-i2c.svg)](https://badge.fury.io/py/rangefinders-i2c)
-[![License](https://img.shields.io/github/license/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/license/Adam-Software/Rangefinders-i2c)
-[![PyPI version](https://badge.fury.io/py/rangefinders-i2c.svg)](https://badge.fury.io/py/rangefinders-i2c) 
-[![Wheel](https://img.shields.io/pypi/wheel/rangefinders-i2c)](https://img.shields.io/pypi/wheel/rangefinders-i2c)
 [![Version](https://img.shields.io/pypi/pyversions/rangefinders-i2c)](https://img.shields.io/pypi/pyversions/rangefinders-i2c)
-[![Format](https://img.shields.io/pypi/format/rangefinders-i2c)](https://img.shields.io/pypi/format/rangefinders-i2c)
-[![Status](https://img.shields.io/pypi/status/rangefinders-i2c)](https://img.shields.io/pypi/status/rangefinders-i2c)
 [![Activity](https://img.shields.io/github/commit-activity/m/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/commit-activity/m/Adam-Software/Rangefinders-i2c)
 [![LastStatus](https://img.shields.io/github/last-commit/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/last-commit/Adam-Software/Rangefinders-i2c)
 [![CodeSize](https://img.shields.io/github/languages/code-size/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/languages/code-size/Adam-Software/Rangefinders-i2c)
 [![CodeSize](https://img.shields.io/librariesio/github/Adam-Software/Rangefinders-i2c)](https://img.shields.io/librariesio/github/Adam-Software/Rangefinders-i2c)
+
+[![PyPI version](https://badge.fury.io/py/rangefinders-i2c.svg)](https://badge.fury.io/py/rangefinders-i2c)
+[![Wheel](https://img.shields.io/pypi/wheel/rangefinders-i2c)](https://img.shields.io/pypi/wheel/rangefinders-i2c)
+[![Status](https://img.shields.io/pypi/status/rangefinders-i2c)](https://img.shields.io/pypi/status/rangefinders-i2c)
+[![Format](https://img.shields.io/pypi/format/rangefinders-i2c)](https://img.shields.io/pypi/format/rangefinders-i2c)
+
+
 
 ### What the library can do?
 1. Change TOF10120 address device by usb. 
