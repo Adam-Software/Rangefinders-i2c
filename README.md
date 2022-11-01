@@ -4,13 +4,14 @@
 [![Activity](https://img.shields.io/github/commit-activity/m/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/commit-activity/m/Adam-Software/Rangefinders-i2c)
 [![LastStatus](https://img.shields.io/github/last-commit/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/last-commit/Adam-Software/Rangefinders-i2c)
 [![CodeSize](https://img.shields.io/github/languages/code-size/Adam-Software/Rangefinders-i2c)](https://img.shields.io/github/languages/code-size/Adam-Software/Rangefinders-i2c)
+[![Depencies](https://img.shields.io/librariesio/github/Adam-Software/Rangefinders-i2c)](https://img.shields.io/librariesio/github/Adam-Software/Rangefinders-i2c)
 
 [![PyPI version](https://badge.fury.io/py/rangefinders-i2c.svg)](https://badge.fury.io/py/rangefinders-i2c)
 [![PythonVersion](https://img.shields.io/pypi/pyversions/rangefinders-i2c)](https://img.shields.io/pypi/pyversions/rangefinders-i2c)
 [![Wheel](https://img.shields.io/pypi/wheel/rangefinders-i2c)](https://img.shields.io/pypi/wheel/rangefinders-i2c)
 [![Status](https://img.shields.io/pypi/status/rangefinders-i2c)](https://img.shields.io/pypi/status/rangefinders-i2c)
 [![Format](https://img.shields.io/pypi/format/rangefinders-i2c)](https://img.shields.io/pypi/format/rangefinders-i2c)
-[![Depencies](https://img.shields.io/librariesio/github/Adam-Software/Rangefinders-i2c)](https://img.shields.io/librariesio/github/Adam-Software/Rangefinders-i2c)
+
 
 
 
@@ -87,8 +88,3 @@ address = 24
 distance = sensor.GetDistance(address)
 print("address:", address, "distance:", distance)
 ```
-
-
-
-
-
