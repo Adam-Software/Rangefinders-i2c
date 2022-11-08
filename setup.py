@@ -14,7 +14,7 @@ setup(
     description='Change TOF10120 address device by usb. Get data from TOF10120 device by i2c',
     long_description_content_type="text/markdown",
     long_description=long_description,
-    install_requires=['smbus2', 'serial', 'sh', 'loguru'],
+    install_requires=['smbus2', 'sh', 'loguru'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
